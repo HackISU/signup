@@ -26,9 +26,9 @@ app.post('/signup', function(req, response) {
 
 
         request.post({
-            url: "https://us10.api.mailchimp.com/3.0/lists/1a990ce676/members",
+            url: "",
             headers:{
-                "Authorization":"apikey 53e48c48bc0cc6a35ab62c0c95eee883-us10",
+                "Authorization":"",
                 "content-type": "application/json",
             },
             json:true,
